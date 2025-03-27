@@ -36,6 +36,7 @@ The project is organized as follows:
   - **CheckBox** for multiple selections.
   - **RadioButton** for single-choice selection.
   - **Spinner** for dropdown selections.
+  - **ImageButton** for allow users to move to end screen seamlessly.
 - Implemented **input validation** to ensure the user provides valid data.
 - Displayed the collected input data in a **TextView** upon submission.
 
