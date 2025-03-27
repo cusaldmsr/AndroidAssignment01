@@ -61,7 +61,7 @@ The project is organized as follows:
 - Ensured proper handling of **screen rotations** and other configuration changes for better user experience.
 
 ### 6. **Creativity and Innovation**
-- Added custom UI elements to enhance user interaction.
+- Added custom UI elements to enhance user interaction.(GIF)
 - Implemented additional features that showcase innovative design and functionality.
 
 ## UI 
