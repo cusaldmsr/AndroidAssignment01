@@ -71,8 +71,11 @@ The project is organized as follows:
 <img src="Github Assets/SplashUI.jpg" width = "220">
 <img src="Github Assets/1stPage.jpg" width = "220">
 <img src="Github Assets/2ndPage.jpg" width = "220">
-<img src="Github Assets/EndScreen.jpg" width = "220">
+ <img src="https://github.com/user-attachments/assets/c3669aa0-0a5e-4674-892b-ed0e11e90b18" width = "220">
+<!-- <img src="Github Assets/EndScreen.jpg" width = "220"> -->
 </div>
+
+
 
 
 ## Getting Started
