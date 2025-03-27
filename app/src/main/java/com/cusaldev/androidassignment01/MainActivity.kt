@@ -16,7 +16,8 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var btn: Button
+    lateinit var btnNext: Button
+    lateinit var btnPrevious : Button
     lateinit var textBox: EditText
     lateinit var emailBox: EditText
     lateinit var checkBox1: CheckBox
@@ -32,19 +33,25 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        btn = findViewById(R.id.button2)
+        btnNext = findViewById(R.id.button2)
+        btnPrevious = findViewById(R.id.button4)
         textBox = findViewById(R.id.editTextText)
         emailBox = findViewById(R.id.editTextTextEmailAddress)
         checkBox1 = findViewById(R.id.checkBox)
         checkBox2 = findViewById(R.id.checkBox2)
 
-        btn.setOnClickListener {
+        btnNext.setOnClickListener {
             hideKeyboard()
             Toast.makeText(this,textBox.text, Toast.LENGTH_SHORT).show()
             Toast.makeText(this,emailBox.text, Toast.LENGTH_SHORT).show()
             Toast.makeText(this,checkBox1.text, Toast.LENGTH_SHORT).show()
             Toast.makeText(this,checkBox2.text, Toast.LENGTH_SHORT).show()
             val intent = Intent(this,HomeActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnPrevious.setOnClickListener {
+            val intent = Intent(this,SplashActivity::class.java)
             startActivity(intent)
         }
     }
