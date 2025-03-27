@@ -67,10 +67,10 @@ The project is organized as follows:
 ## UI 
 
 <div align="center">
-
-<img src="Github Assets/SplashScreen.jpg" width = "220">
-<img src="Github Assets/Page01.jpg" width = "220">
-<img src="Github Assets/Page02.jpg" width = "220">
+<img src="Github Assets/StartUI.jpg" width = "220">
+<img src="Github Assets/SplashUI.jpg" width = "220">
+<img src="Github Assets/1stPage.jpg" width = "220">
+<img src="Github Assets/2ndPage.jpg" width = "220">
 <img src="Github Assets/EndScreen.jpg" width = "220">
 </div>
 
